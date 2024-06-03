@@ -1,0 +1,17 @@
+.box{
+    width:400px;
+    height:400px;
+    background-color: brown;
+    margin:100px auto;
+    transition-property: all;
+    transition-delay: 0.5s;
+    transition-duration: 0.5s;
+    transition-timing-function: 0.5s linear;
+}
+.box:hover{
+    width:200px;
+    height:200px;
+    background-color: green;
+    border-radius: 50%;
+    transform: rotate(180deg);
+}

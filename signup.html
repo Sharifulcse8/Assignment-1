@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {
+            background-color: blueviolet;
+        }
+
+        button:hover {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div style="display:flex;column-gap:5px;">
+            <div style="background-color:aqua;width:10%;">
+                <img src="facebook.jpeg" width="120px" height="120px">
+            </div>
+            <div style="background-color: aqua;width: 70%;">
+                <h1 style="text-align: center;margin-top: 5%;"> MY WEBSITE </h1>
+            </div>
+            <div
+                style="background-color: aqua;width: 20%;display:flex;flex-direction: column;justify-content: center;align-items: center;">
+                <div>
+                    <div style="padding-left:12%;">
+                        <h2><small>Monday, 3 June 2024</small></h2>
+                    </div>
+                    <div style="margin-bottom: 10%;">
+                        <form>
+                            <input type="text" placeholder="search here...">
+                            <button type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- the 2nd part-->
+        &nbsp;
+        <div style="display: flex;padding:1px;text-align: center;justify-content: space-between;">
+            <div>
+                <a href="http://127.0.0.1:5500/home.html?"></a>
+                <button style="width:206%;margin-right:40px;"
+                    onclick="document.location='http://127.0.0.1:5500/home.html'"><u>
+                        <h3>Home</h3>
+                    </u></button>
+            </div>
+            <div>
+                <a href="http://127.0.0.1:5500/form.html"></a>
+                <button style="width:330%;" onclick="document.location='http://127.0.0.1:5500/from.html'">
+                    <h3><u>Form</h3></u>
+                </button>
+            </div>
+            <div>
+                <a href=""></a>
+                <button style="width:190%;margin-left:20px;margin-right:20px;"
+                    onclick="document.location='http://127.0.0.1:5500/table.html'">
+                    <h3><u>Table</u></h3>
+                </button>
+            </div>
+            <div>
+                <a href="http://127.0.0.1:5500/NewsPortal.html"></a>
+                <button style="width:230%;margin-right:40%;"
+                    onclick="document.location='http://127.0.0.1:5500/NewsPortal.html'">
+                    <h3><u>News Portal</u></h3>
+                </button>
+            </div>
+            <div>
+                <a href="http://127.0.0.1:5500/image.html"></a>
+                <button style="width:184%;margin-left: 30px;"
+                    onclick="document.location='http://127.0.0.1:5500/image.html'">
+                    <h3><u>Image</u></h3>
+                </button>
+            </div>
+            <div>
+                <a href=""></a>
+                <button style="width:100%;margin-right:150px;"
+                    onclick="document.location='http://127.0.0.1:5500/contact.html'">
+                    <h3><u>Contact</u></h3>
+                </button>
+            </div>
+        </div>
+    </header>
+    <div style="box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.5); width: 50%; margin: 0 auto; padding: 20px;" align="center">
+        <h1>Registration Form</h1>
+        <form>
+            <label for="fn">Firstname&nbsp;</label>
+            <input type="text" id="fn" placeholder="firstname"><br><br>
+            <label for="ln">Lastname&nbsp;</label>
+            <input type="text" id="ln" placeholder="lastname"><br><br>
+            <label for="mail">Email&nbsp;</label>
+            <input type="email" id="mail" placeholder="email"><br><br>
+            <label for="password">Password&nbsp;</label>
+            <input type="password" id="password" placeholder="password"><br><br>
+            <table>
+                <tr>
+                    <td width="80px" align="center">Gender</td>
+                    <td width="180px">
+                        <input type="radio" name="gender"> Male <br>
+                        <input type="radio" name="gender"> Female
+                    </td>
+                </tr>
+            </table><br>
+            <label for="div">Division
+                &emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;</label>
+            <select id="div">
+                <option value="d">Dhaka</option>
+                <option value="c">Chattogram</option>
+                <option value="b">Barishal</option>
+                <option value="k">Khulna</option>
+                <option value="ra">Rajshahi</option>
+                <option value="m">Mymensingh</option>
+                <option value="r">Rangpur</option>
+                <option value="s">Sylet</option>
+                <option value="ch">Chandpur</option>
+                <option value="cu">Cumilla</option>
+            </select><br><br>
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

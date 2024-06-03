@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            background-color: blueviolet;
+        }
+        button:hover{
+            background-color: black;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div style="display:flex;column-gap:5px;">
+            <div style="background-color:aqua;width:10%;">
+                <img src="facebook.jpeg" width="120px" height="120px">
+            </div>
+            <div style="background-color: aqua;width: 70%;">
+                <h1 style="text-align: center;margin-top: 5%;"> MY WEBSITE </h1>
+            </div>
+            <div style="background-color: aqua;width: 20%;display:flex;flex-direction: column;justify-content: center;align-items: center;">
+                <div>
+                    <div style="padding-left:12%;">
+                        <h2><small>Monday, 3 June 2024</small></h2>
+                    </div>
+                    <div style="margin-bottom: 10%;">
+                        <form>
+                            <input type="text" placeholder="search here...">
+                            <button type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- the 2nd part-->
+        &nbsp;
+        <div style="display: flex;padding:1px;text-align: center;justify-content: space-between;">
+            <div>
+                <a href="http://127.0.0.1:5500/home.html?"></a>
+                <button style="width:206%;margin-right:40px;"  onclick="document.location='http://127.0.0.1:5500/home.html'"><u><h3>Home</h3></u></button>
+            </div>
+            <div>
+                <a href="http://127.0.0.1:5500/form.html"></a>
+                <button style="width:330%;"onclick="document.location='http://127.0.0.1:5500/from.html'"><h3><u>Form</h3></u></button>
+            </div>
+            <div>
+                <a href=""></a>
+                <button style="width:190%;margin-left:20px;margin-right:20px;"onclick="document.location='http://127.0.0.1:5500/table.html'"><h3><u>Table</u></h3></button>
+            </div>
+            <div>
+                <a href="http://127.0.0.1:5500/NewsPortal.html"></a>
+                <button style="width:230%;margin-right:40%;"onclick="document.location='http://127.0.0.1:5500/NewsPortal.html'"><h3><u>News Portal</u></h3></button>
+            </div>
+            <div>
+                <a href="http://127.0.0.1:5500/image.html"></a>
+                <button style="width:184%;margin-left: 30px;"onclick="document.location='http://127.0.0.1:5500/image.html'"><h3><u>Image</u></h3></button>
+            </div>
+            <div>
+                <a href=""></a>
+                <button style="width:100%;margin-right:150px;"onclick="document.location='http://127.0.0.1:5500/contact.html'"><h3><u>Contact</u></h3></button>
+            </div>
+        </div>
+        </header>
+    <div align="center"><big><b>Image gallery</b></big></div><br>
+    <div style="border:1px solid whitesmoke;padding:2px;">
+        <table>
+            <tr>
+                <td><img src="1f.jpeg" width="230px" height="190px"></td>
+                <td><img src="2.jpeg" width="230px" height="190px"></td>
+                <td><img src="3.jpeg" width="230px" height="190px"></td>
+                <td><img src="4.jpeg" width="230px" height="190px"></td>
+                <td><img src="5.jpeg" width="230px" height="190px"></td>
+            </tr>
+            <tr>
+                <td><img src="6.jpeg" width="230px" height="190px"></td>
+                <td><img src="7.jpeg" width="230px" height="190px"></td>
+                <td><img src="8.jpeg" width="230px" height="190px"></td>
+                <td><img src="9.jpeg" width="230px" height="190px"></td>
+                <td><img src="10.jpeg" width="230px" height="190px"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
